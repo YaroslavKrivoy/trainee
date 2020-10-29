@@ -92,7 +92,7 @@ let format = (arr) => {
 
 let stars = (limit) => {
   let result = '';
-  for (let i = 0; i < limit; i++) {
+  for (let i = 0; i < limit+2; i++) {
       result+='*';
   }
   return result;
